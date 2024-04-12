@@ -55,3 +55,5 @@ Probar haciendo que el spa atienda a Ramiro, y verificando que después de la vi
 ## Atender a todo el mundo
 
 Probar haciendo que el spa atienda a Olivia y a Bruno. Hay uno con el que no va a andar ¿por qué? Agregar lo que haga falta para que el spa pueda atender a las tres personas definidas. Las acciones que no están definidas, y que tengan que definirse, no tienen ningún efecto sobre la persona. 
+
+-Respuesta: el enunciado no define que sucede cuando Olivia toma un baño de vapor, por lo que si no se modela un metodo correspondiente falla en el momento que recibe el mensaje por spa. Se soluciona definiendo un metodo que no realiza nada pero permite recibir el mensaje y continuar la ejecución
